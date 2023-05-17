@@ -1,38 +1,25 @@
-.App {
+body{
+  background: rgb(40, 44, 51);
+  color: whitesmoke;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div{
+  font-size: 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.activado{
+  background-color: blueviolet;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reyes img{
+  width: 30%;
+  margin-bottom: 25px;
 }
